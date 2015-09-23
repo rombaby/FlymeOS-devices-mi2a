@@ -34,6 +34,8 @@
 
 .field public static final enum PERM_DISABLED:Lcom/android/internal/telephony/IccCardConstants$State;
 
+.field public static final enum NETWORK_LOCKED:Lcom/android/internal/telephony/IccCardConstants$State;
+
 .field public static final enum PERSO_LOCKED:Lcom/android/internal/telephony/IccCardConstants$State;
 
 .field public static final enum PIN_REQUIRED:Lcom/android/internal/telephony/IccCardConstants$State;
