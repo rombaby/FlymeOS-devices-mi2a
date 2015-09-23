@@ -1,0 +1,6 @@
+1970-01-01 08:33:27 Optimize closed...
+do preinstall sys
+do preinstall sd
+do preinstall data
+do preinstall ok
+============================================
