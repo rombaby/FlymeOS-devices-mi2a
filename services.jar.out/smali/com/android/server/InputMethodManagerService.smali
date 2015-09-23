@@ -2962,7 +2962,7 @@
     move-result-object v0
 
     .line 801
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_flyme_0
 
     .line 802
     const-string v3, "InputMethodManagerService"
@@ -2993,7 +2993,7 @@
 
     .line 807
     :cond_4
-    :goto_2
+    :cond_flyme_0
     if-eqz v0, :cond_0
 
     .line 808
@@ -3004,16 +3004,6 @@
     invoke-virtual {p0, v0, v3, v4}, Lcom/android/server/InputMethodManagerService;->setSelectedInputMethodAndSubtypeLocked(Landroid/view/inputmethod/InputMethodInfo;IZ)V
 
     goto :goto_0
-
-    .line 804
-    :cond_5
-    const-string v3, "InputMethodManagerService"
-
-    const-string v4, "No default found"
-
-    invoke-static {v3, v4}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto :goto_2
 .end method
 
 .method private resetSelectedInputMethodAndSubtypeLocked(Ljava/lang/String;)V
