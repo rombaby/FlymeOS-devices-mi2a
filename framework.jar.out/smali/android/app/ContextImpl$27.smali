@@ -51,13 +51,13 @@
 
     iget v1, v1, Landroid/content/pm/ApplicationInfo;->targetSdkVersion:I
 
-    const v2, 0x103000b
+    const v2, #android:style@Theme.Dialog#t
 
-    const v3, 0x103006f
+    const v3, #android:style@Theme.Holo.Dialog#t
 
-    const v4, 0x103012e
+    const v4, #android:style@Theme.DeviceDefault.Dialog#t
 
-    const v5, 0x1030132
+    const v5, #android:style@Theme.DeviceDefault.Light.Dialog#t
 
     invoke-static/range {v0 .. v5}, Landroid/content/res/Resources;->selectSystemTheme(IIIIII)I
 

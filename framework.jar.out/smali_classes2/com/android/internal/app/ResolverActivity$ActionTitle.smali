@@ -60,9 +60,9 @@
 
     const/4 v2, 0x0
 
-    const v10, 0x104055a
+    const v10, #android:string@whichSendApplicationNamed#t
 
-    const v9, 0x1040559
+    const v9, #android:string@whichSendApplication#t
 
     .line 123
     new-instance v0, Lcom/android/internal/app/ResolverActivity$ActionTitle;
@@ -71,9 +71,9 @@
 
     const-string v3, "android.intent.action.VIEW"
 
-    const v4, 0x1040555
+    const v4, #android:string@whichViewApplication#t
 
-    const v5, 0x1040556
+    const v5, #android:string@whichViewApplicationNamed#t
 
     invoke-direct/range {v0 .. v5}, Lcom/android/internal/app/ResolverActivity$ActionTitle;-><init>(Ljava/lang/String;ILjava/lang/String;II)V
 
@@ -86,9 +86,9 @@
 
     const-string v6, "android.intent.action.EDIT"
 
-    const v7, 0x1040557
+    const v7, #android:string@whichEditApplication#t
 
-    const v8, 0x1040558
+    const v8, #android:string@whichEditApplicationNamed#t
 
     move v5, v11
 
@@ -156,9 +156,9 @@
 
     const/4 v6, 0x0
 
-    const v7, 0x1040553
+    const v7, #android:string@whichApplication#t
 
-    const v8, 0x1040554
+    const v8, #android:string@whichApplicationNamed#t
 
     invoke-direct/range {v3 .. v8}, Lcom/android/internal/app/ResolverActivity$ActionTitle;-><init>(Ljava/lang/String;ILjava/lang/String;II)V
 
@@ -173,9 +173,9 @@
 
     const-string v6, "android.intent.action.MAIN"
 
-    const v7, 0x104055b
+    const v7, #android:string@whichHomeApplication#t
 
-    const v8, 0x104055c
+    const v8, #android:string@whichHomeApplicationNamed#t
 
     invoke-direct/range {v3 .. v8}, Lcom/android/internal/app/ResolverActivity$ActionTitle;-><init>(Ljava/lang/String;ILjava/lang/String;II)V
 

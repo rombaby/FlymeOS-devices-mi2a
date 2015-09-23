@@ -124,7 +124,7 @@
 
     move-result-object v2
 
-    const v3, 0x105000f
+    const v3, #android:dimen@config_mediaMetadataBitmapMaxSize#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

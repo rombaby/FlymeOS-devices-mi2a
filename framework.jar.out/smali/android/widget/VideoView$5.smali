@@ -176,16 +176,13 @@
 
     move-result-object v1
 
-    .line 556
     .local v1, "r":Landroid/content/res/Resources;
     const/16 v2, 0xc8
 
     if-ne p2, v2, :cond_3
 
-    .line 557
-    const v0, 0x1040015
+    const v0, #android:string@VideoView_error_text_invalid_progressive_playback#t
 
-    .line 562
     .local v0, "messageId":I
     :goto_1
     new-instance v2, Landroid/app/AlertDialog$Builder;
@@ -203,7 +200,7 @@
 
     move-result-object v2
 
-    const v3, 0x1040010
+    const v3, #android:string@VideoView_error_button#t
 
     new-instance v4, Landroid/widget/VideoView$5$1;
 
@@ -226,7 +223,7 @@
     .line 559
     .end local v0    # "messageId":I
     :cond_3
-    const v0, 0x1040011
+    const v0, #android:string@VideoView_error_text_unknown#t
 
     .restart local v0    # "messageId":I
     goto :goto_1

@@ -89,26 +89,22 @@
 
     if-nez v8, :cond_1
 
-    .line 258
     invoke-virtual {v5}, Ljava/util/ArrayList;->size()I
 
     move-result v8
 
     if-nez v8, :cond_0
 
-    .line 259
     iget-object v8, p0, Lcom/android/internal/os/storage/ExternalStorageFormatter$2;->this$0:Lcom/android/internal/os/storage/ExternalStorageFormatter;
 
-    const v9, 0x1040091
+    const v9, #android:string@progress_nomediapresent#t
 
     invoke-virtual {v8, v9}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
 
-    .line 314
     .end local v7    # "volumes":[Landroid/os/storage/StorageVolume;
     :goto_0
     return-void
 
-    .line 262
     .restart local v7    # "volumes":[Landroid/os/storage/StorageVolume;
     :cond_0
     const/4 v8, 0x0
@@ -326,7 +322,7 @@
     .line 301
     iget-object v8, p0, Lcom/android/internal/os/storage/ExternalStorageFormatter$2;->this$0:Lcom/android/internal/os/storage/ExternalStorageFormatter;
 
-    const v9, 0x1040091
+    const v9, #android:string@progress_nomediapresent#t
 
     invoke-virtual {v8, v9}, Lcom/android/internal/os/storage/ExternalStorageFormatter;->updateProgressDialog(I)V
     :try_end_2

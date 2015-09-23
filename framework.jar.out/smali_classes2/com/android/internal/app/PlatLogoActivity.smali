@@ -271,7 +271,7 @@
 
     if-eqz v7, :cond_0
 
-    const v7, 0x1080280
+    const v7, #android:drawable@cm_platlogo#t
 
     :goto_0
     invoke-virtual {p0, v7}, Lcom/android/internal/app/PlatLogoActivity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -437,7 +437,7 @@
     .end local v2    # "highlight":Landroid/graphics/drawable/ShapeDrawable;
     .end local v4    # "platlogo":Landroid/graphics/drawable/Drawable;
     :cond_0
-    const v7, 0x1080549
+    const v7, #android:drawable@platlogo#t
 
     goto/16 :goto_0
 .end method

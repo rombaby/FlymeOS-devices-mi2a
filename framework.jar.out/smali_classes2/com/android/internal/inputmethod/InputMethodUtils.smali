@@ -2656,7 +2656,7 @@
 
     move-result-object v13
 
-    const v14, 0x107003c
+    const v14, #android:array@config_disabledUntilUsedPreinstalledImes#t
 
     invoke-virtual {v13, v14}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

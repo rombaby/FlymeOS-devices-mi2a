@@ -819,26 +819,22 @@
 
     if-ltz v4, :cond_5
 
-    .line 320
-    const v5, 0x1040134
+    const v5, #android:string@numeric_date_template#t
 
     invoke-virtual {p0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 321
     .local v3, "template":Ljava/lang/String;
     if-ge v4, v2, :cond_1
 
     if-ge v4, v1, :cond_1
 
-    .line 322
     if-ge v2, v1, :cond_0
 
-    .line 323
     new-array v5, v6, [Ljava/lang/Object;
 
-    const-string/jumbo v6, "yyyy"
+    const-string v6, "yyyy"
 
     aput-object v6, v5, v7
 

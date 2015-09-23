@@ -22,7 +22,7 @@
 
 
 # static fields
-.field private static final DEFAULT_LAYOUT_RESOURCE_ID:I = 0x1090085
+.field private static final DEFAULT_LAYOUT_RESOURCE_ID:I = #android:layout@number_picker#t
 
 .field private static final DEFAULT_LONG_PRESS_UPDATE_INTERVAL:J = 0x12cL
 
@@ -282,12 +282,10 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 566
-    const v0, 0x1160017
+    const v0, #android:^attr-private@numberPickerStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/NumberPicker;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 567
     return-void
 .end method
 
@@ -385,7 +383,7 @@
     .local v4, "attributesArray":Landroid/content/res/TypedArray;
     const/4 v15, 0x1
 
-    const v16, 0x1090085
+    const v16, #android:layout@number_picker#t
 
     move/from16 v0, v16
 
@@ -395,7 +393,7 @@
 
     .line 604
     .local v11, "layoutResId":I
-    const v15, 0x1090085
+    const v15, #android:layout@number_picker#t
 
     if-eq v11, v15, :cond_0
 
@@ -770,8 +768,7 @@
 
     if-nez v15, :cond_6
 
-    .line 692
-    const v15, 0x102034b
+    const v15, #android:id@increment#t
 
     move-object/from16 v0, p0
 
@@ -807,8 +804,7 @@
 
     if-nez v15, :cond_7
 
-    .line 701
-    const v15, 0x102034d
+    const v15, #android:id@decrement#t
 
     move-object/from16 v0, p0
 
@@ -838,7 +834,7 @@
 
     .line 709
     :goto_4
-    const v15, 0x102034c
+    const v15, #android:id@numberpicker_input#t
 
     move-object/from16 v0, p0
 

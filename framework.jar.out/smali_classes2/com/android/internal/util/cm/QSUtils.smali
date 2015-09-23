@@ -165,7 +165,7 @@
 
     move-result-object v1
 
-    const v2, 0x1040107
+    const v2, #android:string@config_dozeComponent#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -905,7 +905,7 @@
 
     .line 73
     .local v6, "tiles":Ljava/util/List;, "Ljava/util/List<Ljava/lang/String;>;"
-    const v7, 0x1040120
+    const v7, #android:string@config_defaultQuickSettingsTiles#t
 
     invoke-virtual {p0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

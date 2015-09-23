@@ -148,7 +148,7 @@
 
     move-result-object v4
 
-    const v5, 0x1120035
+    const v5, #android:bool@config_allowAllRotations#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -384,7 +384,7 @@
 
     move-result-object v1
 
-    const v2, 0x1120034
+    const v2, #android:bool@config_supportAutoRotation#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 
