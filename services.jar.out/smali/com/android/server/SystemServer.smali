@@ -3044,6 +3044,8 @@
 
     if-nez v58, :cond_1f
 
+    goto :goto_flyme_0
+
     .line 974
     :try_start_3b
     const-string v4, "SystemServer"
@@ -3080,6 +3082,7 @@
     .restart local v37    # "atlas":Lcom/android/server/AssetAtlasService;
     :cond_1f
     :goto_28
+    :goto_flyme_0
     invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
